@@ -22,9 +22,10 @@ repositories {
 dependencies {
     implementation("co.aikar:acf-paper:0.5.1-SNAPSHOT")
 
-    compileOnly("io.papermc.paper:paper-api:1.19.2-R0.1-SNAPSHOT")
+    compileOnly("org.spigotmc:spigot:1.12.2-R0.1-SNAPSHOT")
 
     implementation("com.github.Nopock:Store:0cb897f5c6")
+    implementation("commons-io:commons-io:2.11.0")
 }
 
 tasks.withType<KotlinCompile> {
